@@ -5,19 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <div class="wrapper">
         <h3>Login</h3>
-        <form class="container" action="" method="">
-            <input type="text" id="username" name="username" placeholder="Username">
-            <input type="password" name="pwd" id="pwd" placeholder="Password">
-            <input type="checkbox" name="rmb" value="rmb">
-            <label for="rmb">Remember me</label>
-            <a>Forgot Password</a>
+        <form action="" method="">
+            <div class="input-text">
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+            <div class="input-text">
+                <input type="password" name="pwd" id="pwd" placeholder="Password" required>
+            </div>
+                <input type="checkbox" name="rmb" value="rmb">
+                <label for="rmb">Remember me</label>
+            
+            <a href="#">Forgot Password</a>
+            <div class="btn">
             <button class="loginBtn">Login</button>
-            <p>Don't have an account</p>
-            <a>Register</a>
+            </div>
+            <p>Don't have an account
+            <a href="#">Register</a>
+            </p>
         </form>
     </div>
     <script src="script.js"></script>
