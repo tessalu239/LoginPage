@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.container{
+    display: relative;
+    height: 500px;
+    width: 400px;
+    background: #000;
+    padding:40px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px  rgb(6, 248, 38);
+}
+
+.loginForm-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width: 100%;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.user-input, .pwd-input{
+    position: relative;
+    margin:30px 0;
+    border-bottom: solid 1px white;
+}
+
+.user-input label, .pwd-input label{
+    position: absolute;
+    left: 5px;
+    top:50%;
+    font-size: 16px;
+    transform: translateY(-50%);
+    padding: 5px 0;
+    pointer-events:none;
+    color: white;
+}
+input[type=text], input[type=password]{
+    background: transparent;
+    width: 280px;/*320px*/
+    height:40px;
+    font-size: 16px;
+    border: none;
+    color: white;
+}
+
+.rmbMe{
+    margin: -5px 0 15px 5px;
+}
+input[type=checkbox]{
+    accent-color: rgb(6, 248, 38);
+}
+
+.rmbMe label{
+    font-size: 14px;
+    color: white;
+}
+
+/* button Area*/
+button{
+    position: relative;
+    width:100%;
+    height:40px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(6, 248, 38);
+    box-shadow: 0 0 10px rgb(6, 248, 38);
+    font-size: 16px;
+    color: black;
+    outline: none;
+    cursor: pointer;
+}
+
+.signupPage{
+    margin: 15px 0;
+    font-size: 14px;
+    text-align: center;
+}
+.signupPage p{
+    color: #fff;
+}
+.signupPage a{
+    color:  rgb(6, 248, 38);
+}
