@@ -9,16 +9,15 @@
 </head>
 <body>
     <div class="container">
-        
+        <!-- Login Area -->
         <div class="loginForm-container">
-           
             <form action="" >
             <h2>Login</h2>
             <div class="user-input">
                 <input type="text" id="username" name="username"><label for="username">Username</label>
             </div>
 
-            <div class="pwd-input">
+            <div class="user-input">
                 <input type="password" id="pwd" name="pwd"><label for="pwd">Password</label>
             </div>
             <div class="rmbMe">
@@ -33,6 +32,39 @@
             </div>
         </form>
         </div>
+
+        <!-- Sign Up Area -->
+
+        <div class="signUpForm-container">
+            <form action="">
+            <h2>Sign Up</h2>
+            <div class="user-input">
+                <input id=username name=username type="text"><label>Username</label>
+            </div>
+
+            <div class="user-input">
+                <input type="email" id="email" name="email"><label for="email">Email</label>
+            </div>
+
+            <div class="user-input">
+                <input type="password" id="pwd" name="pwd"><label for="pwd">Password</label>
+            </div>
+            <div class="rmbMe">
+                <input type="checkbox" id="agree" name="agree">
+                <label for="agree">I agree to the terms and conditions</label>
+            </div>
+            <button type="submit">Sign Up</button>
+
+        <div class="signupPage">
+            <p>
+                Already have an account
+                <a href="#">Sign In</a>
+            </p>
+        </div>
+
+        </form>
+    </div>
+
     </div>
     <script src="script.js"></script>
 </body>
