@@ -80,7 +80,7 @@ input[type=checkbox]{
 }
 
 /* button Area*/
-button{
+button[type=submit]{
     position: relative;
     width:100%;
     height:40px;
@@ -108,4 +108,35 @@ button{
 }
 .signupPage a:hover{
     text-decoration: underline;
+}
+
+/* password style */
+
+.validate ul {
+    font-size: 0.8em;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.validate ul i {
+    width: 12px;
+    padding-right: 1.2em;
+    margin-left: 0.5em;
+    color: rgb(6, 248, 38);
+}
+.theme {
+    /* how to delete the white bground */
+    color:  rgb(6, 248, 38);
+}
+
+.charcount {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.charcountext {
+    float: right;
+    font-weight: light;
+    font-size: 14px;
+    color: gray;
 }
